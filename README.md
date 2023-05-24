@@ -14,10 +14,10 @@ ___
 * __Graduated__ : [Dolma highschool](https://dolma-h.goesn.kr/dolma-h/main.do)
 * __Currently Attending__ : [SKKU](https://www.skku.edu/skku/index.do)
 * __Major__ : Software
-***
+
 ## Archivements and Certifications
 
-___
+
 ## Contact
 
 * [Github](https://github.com/optyj59)
