@@ -8,11 +8,13 @@ jobs:
     steps:
     - name : Run a script
       env :
-        hi : hello!
-        world : world!
-      run : echo &hi &world
+        HI : hello!
+        WO : world!
+      run : |
+       echo &HI &WO
     - name : Run python program
-      run : python homework.py
+      run : |
+        python homework.py
  
  
       
