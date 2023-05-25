@@ -33,7 +33,8 @@ jobs:
         env :
           Q : How's the
           W : weather today?
-        run : echo $Q $W
+        run : |
+          echo $Q $W
     
  
  
