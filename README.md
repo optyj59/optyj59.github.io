@@ -6,9 +6,9 @@ Nice to meet you, My name is SongWoonKim.\
 Nowadays, I learn about System Programming, Logic circuit, Algorithms and Opensource software by the lecture of school.
 
 ## Skills
-* Various Sorting algorithms.
-* Enable Programming Language : *C, Python, Java*
-* *Google analytics.*
+1. Various Sorting algorithms.
+3. Enable Programming Language : *C, Python, Java*
+2. *Google analytics.*
 ___
 ## Education
 * __Graduated__ : [Dolma highschool](https://dolma-h.goesn.kr/dolma-h/main.do)
