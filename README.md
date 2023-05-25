@@ -16,7 +16,8 @@ ___
 * __Major__ : Software
 
 ## Archivements and Certifications
-
+* Served for ROKA, 1 year and half.
+* Scores 4.5 for my major until now.
 
 ## Contact
 
