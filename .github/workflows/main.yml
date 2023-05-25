@@ -12,7 +12,10 @@ jobs:
         WO : world!
       run : |
        echo $HI $WO
-    - name : Run python program
+    - name : Install python
+      run : |
+        python -m pip install
+    - name : Test python program
       run : |
         python homework.py
  
