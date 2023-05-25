@@ -6,6 +6,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name : Install python
+      uses : actions/setup-python@v2
+      with : 
+        python-version: '3.x'
     - uses : actions/checkout@v2
     - name : Test python program
       run : |
@@ -16,10 +20,7 @@ jobs:
         WO : world!
       run : |
        echo $HI $WO
-    - name : Install python
-      uses : actions/setup-python@v2
-      with : 
-        python-version: '3.x'
+    
     
  
  
