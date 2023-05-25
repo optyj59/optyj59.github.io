@@ -22,7 +22,7 @@ jobs:
         env :
           HI : hello!
           WO : world!
-          run : echo $HI $WO
+        run : echo $HI $WO
    
     
     
