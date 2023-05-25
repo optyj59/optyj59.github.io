@@ -24,7 +24,16 @@ jobs:
           WO : world!
         run : echo $HI $WO
    
+  test_2:
+    runs-on: ubuntu-lates
+    needs : [test]
     
+    steps:
+      - name : echo twice
+        env :
+          Q : How's the
+          W : weather today?
+        run : echo $Q $W
     
  
  
