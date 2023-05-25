@@ -18,6 +18,7 @@ jobs:
         python-version: '3.x'
     - name : Test python program
       run : |
+        ls
         python homework.py
  
  
