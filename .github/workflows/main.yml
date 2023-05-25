@@ -14,12 +14,16 @@ jobs:
     - name : Test python program
       run : |
         python homework.py
-    - name : Run a script
-      env :
-        HI : hello!
-        WO : world!
-      run : |
-       echo $HI $WO
+    
+    test:
+      runs-on: ubuntu-latest
+      steps:
+        - name: echo script
+          env :
+            HI : hello!
+            WO : world!
+            run : echo $HI $WO
+   
     
     
  
