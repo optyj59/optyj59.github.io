@@ -6,6 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name : Test python program
+      run : |
+        python homework.py
     - name : Run a script
       env :
         HI : hello!
@@ -16,10 +19,7 @@ jobs:
       uses : actions/setup-python@v2
       with : 
         python-version: '3.x'
-    - name : Test python program
-      run : |
-        cd ..
-        python homework.py
+    
  
  
       
