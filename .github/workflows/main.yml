@@ -11,7 +11,7 @@ jobs:
         HI : hello!
         WO : world!
       run : |
-       echo &HI &WO
+       echo $HI $WO
     - name : Run python program
       run : |
         python homework.py
