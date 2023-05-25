@@ -25,4 +25,4 @@ ___
 
 
 
-### 수정 중..
+>> <img src="./thx.jpg" width="700px" height="300px" title="Thx"/>
